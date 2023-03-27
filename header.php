@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
   <head>
-    <meta charset="utf-8">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title><?php wp_title(); ?></title>
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -25,7 +25,7 @@
 
   <body <?php body_class(); ?>>
 
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-expand-lg navbar-light bgnav" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
