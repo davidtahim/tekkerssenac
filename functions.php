@@ -8,14 +8,12 @@ function theme_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'theme_styles' );
 
-function theme_js() {
-
-	global $wp_scripts;
-
-	wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '', true );
-
+function wpbootstrap_scripts() {
+    // Registra e enfileira o script do Bootstrap em português
+    wp_register_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '4.1.0', true );
+    wp_enqueue_script( 'bootstrap-js' );
 }
-add_action( 'wp_enqueue_scripts', 'theme_js' );
+add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts' );
 
 
 ?>
