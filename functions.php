@@ -14,6 +14,13 @@ function wpbootstrap_scripts() {
     wp_enqueue_script( 'bootstrap-js' );
 }
 add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts' );
-
-
+//Função para criar o menu
+function register_theme_menus (){
+    register_nav_menus (
+        array (
+            'header-menu' => __('Header Menu')
+        )
+        );
+}
+add_action ('init', 'register_theme_menus');
 ?>

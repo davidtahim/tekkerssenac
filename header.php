@@ -34,9 +34,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="<?php bloginfo( 'url' );?>"><?php bloginfo( 'name' );?></a>
         </div>
         <div class="navbar-collapse collapse">
+            <?php
+              $args = array (
+                'menu' => 'header-menu',
+                'menu_class' => 'nav navbar-nav',
+                'container' => 'false'
+              );
+              wp_nav_menu( $args );
+            ?>
+
           <form class="navbar-form navbar-right" role="form">
             <div class="form-group">
               <input type="text" placeholder="Email" class="form-control">
