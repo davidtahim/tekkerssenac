@@ -8,6 +8,21 @@
         <?php endwhile; endif; ?>
 
       </div>
+      <div class="container">
+        <div class = "row">
+        <div class="col-md-4">
+          <?php if (dynamic_sidebar( 'front-left' ));  ?>
+        </div>
+        <div class="col-md-4">
+          <?php if (dynamic_sidebar( 'front-center' ));  ?>
+        </div>
+        <div class="col-md-4">
+          <?php if (dynamic_sidebar( 'front-right' ));  ?>
+        </div>
+        </div>
+      </div>
+
+
     </div>
 
     
