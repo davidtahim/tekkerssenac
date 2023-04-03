@@ -100,3 +100,15 @@ ul#menu-principal li a {
 .page-header {
     margin-top: 80px;
 }
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-37 {
+    background-image: url(http://teste.tekkers.com.br/wp-content/uploads/2023/04/logosenacv2.png);
+    text-indent: -99999px;
+    list-style: none;
+    width: 280px;
+    height: 150px;
+}
+
+.menu-footer-container {
+    height: 470px;
+}
