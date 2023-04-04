@@ -110,5 +110,11 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-37 {
 }
 
 .menu-footer-container {
-    height: 470px;
+    height: 400px;
+}
+
+.col-md-12.conteudo {    
+    top: 50px;
+    width: fit-content;
+    height: 800px;
 }
