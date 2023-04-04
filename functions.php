@@ -42,6 +42,9 @@ create_widget( 'Front Page Left', 'front-left', 'Displays on the left of the hom
 create_widget( 'Front Page Center', 'front-center', 'Displays in the center of the homepage' );
 create_widget( 'Front Page Right', 'front-right', 'Displays on the right of the homepage' );
 
+create_widget( 'Footer Left', 'footer-left', 'Displays on the left of the footer' );
+create_widget( 'Footer Center', 'footer-center', 'Displays in the center of the footer' );
+create_widget( 'Footer Right', 'footer-right', 'Displays on the right of the footer' );
 
 create_widget( 'Page Sidebar', 'page', 'Displays on the side of pages with a sidebar' );
 create_widget( 'Blog Sidebar', 'blog', 'Displays on the side of pages in the blog section' );
