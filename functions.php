@@ -49,4 +49,7 @@ create_widget( 'Footer Right', 'footer-right', 'Displays on the right of the foo
 create_widget( 'Page Sidebar', 'page', 'Displays on the side of pages with a sidebar' );
 create_widget( 'Blog Sidebar', 'blog', 'Displays on the side of pages in the blog section' );
 
+
+
+
 ?>
